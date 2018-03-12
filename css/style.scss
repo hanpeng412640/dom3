@@ -1,0 +1,168 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: .14rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "微软雅黑";
+    text-size-adjust: 100%;
+}
+
+body {
+    min-width: 320px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 625%;
+}
+
+img,
+div,
+body,
+html,
+ul,
+li,
+a {
+    -webkit-touch-callout: none;
+}
+
+input,
+button {
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #999;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 0.4rem;
+    background: #EB3B47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem;
+    a {
+        color: #fff;
+    }
+    span {
+        color: #fff;
+        position: relative;
+        input {
+            text-indent: 3em;
+        }
+        b {
+            position: absolute;
+            left: .2rem;
+            top: .03rem;
+            color: #fff;
+            i.icon {
+                color: #CECECE;
+            }
+        }
+    }
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    overflow-y: scroll;
+    .nav {
+        width: 100%;
+        height: .4rem;
+        ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: .1rem;
+            li {
+                color: #818284;
+            }
+        }
+        .one {
+            color: #EB3B47;
+        }
+    }
+    .content {
+        width: 100%;
+        dl {
+            width: 100%;
+            position: relative;
+            border-top: 1px solid #ECECEC;
+            dt {
+                width: 1rem;
+                height: 1rem;
+                position: absolute;
+                top: .1rem;
+                left: .2rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            dd {
+                margin-left: 1.3rem;
+                padding-top: .1rem;
+                h3 {
+                    font-size: .18rem;
+                    font-weight: 600;
+                }
+                h4 {
+                    color: #DA3749;
+                    margin-top: .05rem;
+                    i {
+                        margin-left: .1rem;
+                        font-size: .12rem;
+                        background: #FFE1D5;
+                        padding: .02rem 0 .02rem .1rem;
+                    }
+                }
+                p {
+                    color: #A1A1A1;
+                }
+                h5 {
+                    span {
+                        font-size: .12rem;
+                        background: #EFF5F9;
+                        color: #95BBD2;
+                        margin-right: .05rem;
+                    }
+                    b {
+                        color: #C8C8C8;
+                    }
+                }
+            }
+        }
+    }
+}
